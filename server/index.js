@@ -10,6 +10,7 @@ const http = require("http").createServer(app)
 module.exports = http
 // routers
 const gamesRouter = require("./routers/gamesRouter")
+const authRouter = require("./routers/authRouter")
 // secret
 const SECRET = require("./config");
 const startingSocket = require("./socket")
@@ -27,6 +28,7 @@ app.use(cors({
 }));
 app.use(express.json({limit: "30mb",extended:true}));
 app.use("/casino_px", gamesRouter )
+app.use("/auth", authRouter )
 
 
 

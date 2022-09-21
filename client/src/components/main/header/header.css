@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.mainHeader {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    width: 100%;
+    height: 9%;
+    font-size: 2.8vh;
+    margin-top: 1vh;
+}
+
+
+.mainHeaderRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh;
+    width: 65vh;
+}
+
+.aboutStyle {
+    padding: 0.5vh;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+.headerLogo {
+    width: 8vh;
+    height: 8vh;
+}
+
+.mainHelp,
+.mainLanguage,
+.headerLogo {
+    cursor: pointer;
+}
+
+.mainHeaderLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1vh;
+    width: 33vh;
+}
+
+.logButt,
+.signButt {
+    border: none;
+    width: 13.5vh;
+    height: 3.5vh;
+    border-radius: 2vh;
+    font-size: 2vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logButt {
+    color: #07856d;
+    background-color: white;
+}
+
+.signButt {
+    color: whitesmoke;
+    background-color: #07856d;
+}

@@ -1,0 +1,62 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_body{
+    width: 100%;
+    height: 78vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.mainBodyLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 78vh;
+    height: 66%;
+}
+.mainDescription{
+    height: 16.5vh;
+    padding: 2vh;
+}
+.mainDescriptionUp{
+    display: flex;
+    justify-content: space-between;
+    width: 64vh;
+}
+
+.mainOtherH1{
+    margin: 0;
+    font-size: 7vh;
+    color: whitesmoke;
+}
+.inerH1{
+    font-size: 7vh;
+    color:#07856d;
+    margin:0
+}
+
+.mainJoinButton{
+    display: flex;
+    justify-content: flex-end;
+    width: 55.5vh;
+}
+
+.joinButt{
+    border: none;
+    background-color: #07856d;
+    color: whitesmoke;
+    width: 19vh;
+    height: 6.5vh;
+    border-radius: 3vh;
+    font-size: 3.5vh;
+    font-weight: 600;
+}
