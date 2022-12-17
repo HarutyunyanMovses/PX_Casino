@@ -20,7 +20,7 @@ router.post(
   ],
   authControler.signUp
 );
-router.get("/refreshtoken", authMiddleware, authControler.getToken);
+router.get("/refreshtoken", authMiddleware, authControler.newToken);
 router.post("/userbyid",authMiddleware, authControler.getUserById)
 router.post("/signin", authControler.signIn);
 

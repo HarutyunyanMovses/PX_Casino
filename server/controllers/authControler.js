@@ -79,7 +79,7 @@ class authControler {
       console.log(e);
     }
   }
-  async getToken(req, res) {
+  async newToken(req, res) {
     try {
       const reqToken = req.headers.authorization.split(" ")[1];
       const decodeData = jwt.verify(reqToken, SECRET.SECRET.secret);
@@ -91,8 +91,7 @@ class authControler {
         },
       });
     } catch (e) {
-      console.log(e);
-      return res.status(404).json({ massage: "miban sxal es are" });
+      return res.status(404).json({ massage: "autorization err" });
     }
   }
 

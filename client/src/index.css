@@ -4,7 +4,7 @@
 }
 
 html {
-    height: 50vh;
+    height: 99%;
     width: 100%;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -26,7 +26,7 @@ body {
     height: 100%;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     margin: 20px;
     width: 5px;
 }
@@ -39,4 +39,4 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: darkgrey;
     height: 10%;
-}
+} */

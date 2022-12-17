@@ -66,3 +66,15 @@
     color: whitesmoke;
     background-color: #07856d;
 }
+
+.mainLanguageUp{
+    margin-top: 12vh;
+    position: relative;
+    z-index: 1;
+}
+
+.mainLanguageUp > p {
+    font-size: 1.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}

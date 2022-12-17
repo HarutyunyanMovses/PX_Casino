@@ -9,8 +9,8 @@
 }
 
 .main_body{
-    width: 100%;
-    height: 78vh;
+    width: 99%;
+    height: 80vh;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 78vh;
+    width: 90vh;
     height: 66%;
 }
 .mainDescription{
@@ -29,8 +29,7 @@
 }
 .mainDescriptionUp{
     display: flex;
-    justify-content: space-between;
-    width: 64vh;
+    width: 89vh;
 }
 
 .mainOtherH1{
@@ -41,7 +40,8 @@
 .inerH1{
     font-size: 7vh;
     color:#07856d;
-    margin:0
+    margin:0;
+    padding-left: 3vh;
 }
 
 .mainJoinButton{
@@ -59,4 +59,5 @@
     border-radius: 3vh;
     font-size: 3.5vh;
     font-weight: 600;
+    cursor: pointer;
 }
